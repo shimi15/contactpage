@@ -1,0 +1,66 @@
+body{
+	font-weight: normal;
+	color: #333333;
+	font-family: メイリオ;
+	font-size: 16px;
+}
+img{
+	width: 100%;
+}
+.wrapper{
+    max-width: 1200px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 20px;
+	margin-bottom: 50px;
+}
+
+.header_box{
+	width: 35%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header_box_left{
+	width: 100%;
+	padding: 15px 0;
+	background-color: #ff3366;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
+.header_box_right{
+	width: 100%;
+	padding: 15px 0;
+	margin-left: 15px;
+	background-color: green;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
+
+header h1{
+	font-size: 22px;
+}
+
+.menu{
+	width: 100%;
+	text-align: -webkit-center;
+}
+
+.menu ul{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
