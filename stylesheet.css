@@ -63,4 +63,48 @@ header h1{
 	margin-bottom: 30px;
 }
 
+.info{
+	margin: 70px 0;
+}
+
+.input{
+	width: 60%;
+	outline: 1px solid;
+	text-align: center;
+}
+
+.sec01{
+	text-align: center;
+}
+.sec01 h2{
+	margin-bottom: 20px;
+}
+.sec01 p{
+	font-size: 12px;
+}
+
+.item{
+	display: flex;
+	justify-content: left;
+}
+
+.content{
+	width: 40%;
+	margin-bottom: 50px;
+}
+
+.caution{
+	color: white;
+	background-color: #ff3366;
+	padding: 5px 5px;
+	font-size: 12px;
+	margin-left: 20px;
+}
+
+.check{
+	color: green;
+	border-bottom: double;
+}
+
+
 
