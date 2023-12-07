@@ -52,7 +52,11 @@
           <label for="nema">お名前<span class="caution">必須</span></label>
         </div>
         <div class="input">
-          <input type="text" name="name" placeholder="山田太郎" value="">
+          <div class="input_border">
+            <div class="input_text">
+              <input type="text" name="name" placeholder="山田太郎" value="">
+            </div>
+          </div>
         </div>
       </div>
       
@@ -61,7 +65,11 @@
             <label for="nema">フリガナ<span class="caution">必須</span></label>
           </div>
           <div class="input">
-            <input type="text" name="furigana" placeholder="ヤマダタロウ" value="">
+            <div class="input_border">
+              <div class="input_text">
+                <input type="text" name="furigana" placeholder="ヤマダタロウ" value="">
+              </div>
+            </div>
           </div>
         </div>
 
@@ -70,7 +78,11 @@
             <label for="email">メールアドレス<span class="caution">必須</span></label>
           </div>
           <div class="input">
-            <input type="text" name="email" placeholder="info@fast-creademy.jp" value="">
+            <div class="input_border">
+              <div class="input_text">
+                <input type="text" name="email" placeholder="info@fast-creademy.jp" value="">
+              </div>
+            </div>
           </div>
         </div>
 
@@ -79,7 +91,11 @@
             <label for="tel">電話番号<span class="caution">必須</span></label>
           </div>
           <div class="input">
-            <input type="text" name="tel" placeholder="info@fast-creademy.jp" value="">
+            <div class="input_border">
+              <div class="input_text">
+                <input type="text" name="tel" placeholder="info@fast-creademy.jp" value="">
+              </div>
+            </div>
           </div>
         </div>
 
@@ -88,12 +104,16 @@
             <label for="content">お問い合わせ項目<span class="caution">必須</span></label>
           </div>
           <div class="input">
-            <select name="item">
-              <option value="">お問い合わせ項目を選択してください</option>
-              <option value="ご意見・ご感想">ご意見・ご感想</option>
-              <option value="不具合について">不具合について</option>
-              <option value="返信希望">返信希望</option>
-            </select>
+            <div class="input_border">
+              <div class="input_text">
+                <select name="item">
+                  <option value="">選択してください</option>
+                  <option value="ご意見・ご感想">ご意見・ご感想</option>
+                  <option value="不具合について">不具合について</option>
+                  <option value="返信希望">返信希望</option>
+                </select>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -102,25 +122,31 @@
             <label>お問い合わせ内容<span class="caution">必須</span></label>
           </div>
           <div class="input">
-            <textarea name="content" rows="5" placeholder="お問合せ内容を入力"></textarea>
+            <div class="input_border">
+              <div class="input_text">
+                <textarea name="content" rows="5" placeholder="こちらにお問合せ内容をご記入ください"></textarea>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="item">
           <div class="content">
-            <label>個人情報保護方針<span class="caution">必須</span></label>
+            <div class="privacy_policy">
+              <label>個人情報保護方針<span class="caution">必須</span></label>
+            </div>
           </div>
-          <div class="input">
             <label><input type="checkbox" name="acceptance" value="1" aria-invalid="false" class="agree"><span class="check">個人情報保護方針</span></label>
-            
-            
-          </div>
         </div>
-        
-        <button type="submit">確認</button>
-
       </form>
     </div>
+
+    <div class="confirmation">
+      <div class="confirmation_border">
+        <button type="submit">確認</button>
+      </div>
+    </div>
+    
   
 
     <section class="sec_btn">

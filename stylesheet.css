@@ -69,8 +69,18 @@ header h1{
 
 .input{
 	width: 60%;
-	outline: 1px solid;
-	text-align: center;
+	align-items: center;
+}
+.input_border{
+	border: ridge;
+	padding: 10px 0;
+}
+
+
+.input_text{
+	margin-left: 5px;
+	border: gray;
+	
 }
 
 .sec01{
@@ -83,15 +93,24 @@ header h1{
 	font-size: 12px;
 }
 
+.contact_form{
+	margin: 0 15px;
+	border-top: inset;
+	border-bottom: inset;
+}
+
 .item{
 	display: flex;
 	justify-content: left;
+	align-items: center;
+	margin-bottom: 50px;
 }
 
 .content{
 	width: 40%;
-	margin-bottom: 50px;
+	align-items: center;
 }
+
 
 .caution{
 	color: white;
@@ -103,8 +122,21 @@ header h1{
 
 .check{
 	color: green;
-	border-bottom: double;
 }
 
+.confirmation{
+	
+	
+	margin-top: 50px;
+	padding: 10px 0;
+	color: white;
+	background-color: green;
+}
+
+.confirmation_border{
+	width: 50%;
+	align-items: center;
+	text-align: center;
+}
 
 
